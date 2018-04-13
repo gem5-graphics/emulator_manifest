@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
 
-  <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+  <remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com/" />
   <remote  name="gem5-graphics" fetch="https://github.com/gem5-graphics" />
 
   <default remote="aosp" revision="emu-2.5-release" sync-j="4" />
